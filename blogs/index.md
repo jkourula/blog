@@ -13,7 +13,7 @@ updated: 2016-04-01 09:00:00 +0200
     <ul>
     {% assign date = currentdate %}
   {% endif %}
-    <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+    <li><a href="{{ site.baseurl }}/{{ post.url }}">{{ post.title }}</a></li>
   {% if forloop.last %}</ul>{% endif %}
   {% endunless %}
 {% endfor %}
