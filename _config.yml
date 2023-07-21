@@ -4,7 +4,7 @@ plugins:
 
 title: MJ Blog
 url: 
-baseurl: ""
+baseurl: "blog/"
 description: 
 author: 
 
